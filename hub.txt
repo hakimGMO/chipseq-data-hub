@@ -1,0 +1,59 @@
+hub chiphub
+shortLabel EyechipHub
+longLabel SOX2 OTX2 CHIP-Seq Data Hub Hosted on Galaxy
+useOneFile on
+email bouazzaoui.hakim@gmail.com
+genome mm10
+
+track GSM7734232_GDZ-10-OTX2
+shortLabel OTX2 ChIP-seq
+longLabel OTX2 ChIP-seq data (GDZ-10)
+type bigWig
+viewLimits 100:14000
+maxHeightPixels 100:32:8
+graphTypeDefault bar
+color 255,0,0
+altColor 128,0,0
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d867652b1bb8281877fa3c/display?to_ext=bigwig
+
+track GSM7734233_GDZ-13-SOX2
+shortLabel SOX2 ChIP-seq
+longLabel SOX2 ChIP-seq data (GDZ-13)
+type bigWig
+viewLimits 100:14000
+maxHeightPixels 100:32:8
+graphTypeDefault bar
+color 0,0,255
+altColor 0,0,128
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765fa41d9406c7d351b/display?to_ext=bigwig
+
+track GSM7734231_GDZ-09-IgG
+shortLabel IgG Control
+longLabel IgG Control ChIP-seq data (GDZ-09)
+type bigWig
+viewLimits 100:14000
+maxHeightPixels 100:32:8
+graphTypeDefault bar
+color 128,128,128
+altColor 64,64,64
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765d0dd8888044929f2/display?to_ext=bigwig
+
+track bedfileSOX2
+shortLabel SOX2 Peaks
+longLabel SOX2 ChIP-seq peak calls
+type bigBed
+visibility pack
+color 0,255,0
+altColor 0,128,0
+maxWindowToDraw 200000
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d8676513b2ca7419e56ab4/display?to_ext=bigbed
+
+track bedfileOTX2
+shortLabel OTX2 Peaks
+longLabel OTX2 ChIP-seq peak calls
+type bigBed
+visibility pack
+color 255,165,0
+altColor 128,82,0
+maxWindowToDraw 200000
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d8676505755ecbc7b72c17/display?to_ext=bigbed
